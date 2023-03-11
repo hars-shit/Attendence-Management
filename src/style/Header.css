@@ -1,0 +1,38 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    margin-right: 0.5rem;
+}
+.sideMenuIcon{
+    background-color: white;
+}
+.headerText{
+    align-self: center;
+}
+
+.headerText p{
+    font-size: 1rem;
+    font-weight: 520;
+  
+}
+#drawer{
+    background-color: blue;
+}
+@media screen and (max-width:480px) {
+    .headerText p{
+        font-size: 0.9rem;
+    }    
+}
+.headingDiv{
+    position: relative;
+    top: 14%;
+}
+.buttonDiv{
+    position: relative;
+    top: 20%;
+}
+.side_menu_icon{
+    margin-right: 1rem;
+}

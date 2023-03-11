@@ -1,0 +1,121 @@
+.mainDiv{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+
+.StdDataContainer{
+    color: black;
+    margin: 4rem 6rem;
+    padding: 1rem 1rem;
+    height: 9rem;
+    border: 2px solid gray;
+    border-radius: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    white-space: pre-line;
+    word-wrap: break-word;
+    
+}
+ img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.introOfStd{
+    margin-right: 0.6rem;
+}
+.introOfStd h6{
+    margin-bottom: 0.7rem;
+}
+.introOfStd p{
+    margin-bottom: 0.7rem;
+}
+.std{
+    border: 1.5px solid gray;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+}
+.buttonStd .present{
+   margin-right: 2rem;
+   
+}
+
+.buttonStd .absent{
+    margin-right: 2rem;
+ }
+
+ .buttonStd .leave{
+    margin-right: 1rem;
+ }
+
+.bg-blue{
+    background-color: blue;
+    border: 1.5px solid blue;
+    color: white;
+}
+.bg-white{
+    background-color: white;
+    color: black;
+    border: 1.5px solid gray;
+}
+.bg-red{
+    background-color: red;
+    border: 1.5px solid red;
+
+    color: white;
+}
+.bg-pink{
+    border: 1.5px solid rgb(214, 120, 136);
+    background-color: rgb(214, 120, 136);
+    color: white;
+}
+@media screen and (max-width : 420px) {
+    .mainDiv{
+        display: grid;
+        margin-top: 2rem;
+        margin-left: 0.7rem;
+        margin-right: 0.7rem;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .StdDataContainer{
+        height: 5rem;
+        margin: 0px 0px;
+        margin-bottom: 1.7rem;
+        border-radius: 1rem;
+        gap: 0.7rem;
+        padding: 0rem 0rem;   
+    }
+    img{
+        width: 50px;
+        height: 50px;
+        
+    }
+ 
+    .introOfStd h6{
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+.introOfStd p{
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+.std{
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+}
+.buttonStd .present{
+    margin-right: 9px;
+}
+.buttonStd .absent{
+    margin-right: 9px;
+ }
+
+
+
+    
+}
