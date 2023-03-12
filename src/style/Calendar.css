@@ -1,31 +1,69 @@
-.Container{
+.Container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 40vh;
+  align-items: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+label {
+  font-size: 2rem;
+  font-weight: 600;
+  color: blue;
+}
+.inside-btn-icon{
+    color: blue;
+    margin-right: 1rem;
+    font-size: 24px;
+  }
+.selection-box{
     display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 40vh;
-    align-items: center;
+    align-self: center;
 }
-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-label{
-    font-size: 2rem;
-    font-weight: 600;
-}
-input{
-    text-align: center;
-}
-@media screen and (max-width : 420px) {
-.Container{
-    padding: 15px 5px;
-}
-label{
-    font-size: 1.2rem;
-}
-input{
- align-self: center;
+#select-year {
+  border: 2px solid blue;
+  width: 30rem;
+  height: 3rem;
+  
+  border-radius: 20px;
+  align-self: center;
+  background: none;
 }
 
+svg {
+  float: right;
+}
+
+@media screen and (max-width: 420px) {
+  .Container {
+    padding: 15px 5px;
+  }
+  label {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 600;
+  }
+
+   #select-year {
+    border: 2px solid blue;
+    width: 22rem;
+    height: 3rem;
+    
+    border-radius: 20px;
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    padding-left: 7.4rem;
+  } 
+  .inside-btn-icon{
+    margin-left: 6.5rem;
+    font-size: 20px;
+    
+  }
+
+  
 }
